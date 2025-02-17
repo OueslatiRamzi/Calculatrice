@@ -21,6 +21,7 @@ export default function Calculator() {
   };
 
   return (
+    <main>
     <div className="mx-auto overflow-hidden mt-10 mb-2 bg-purple-900 shadow-lg border rounded-lg md:w-3/6 sm:w-4/6">
       <div className="p-5 text-white text-center text-3xl bg-purple-900">
         <span className="text-orange-500">Calcu</span>lator
@@ -47,5 +48,6 @@ export default function Calculator() {
         </div>
       ))}
     </div>
+    </main>
   );
 }
